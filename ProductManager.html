@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ProductManager.css">
+    <script>
+        let productList=new Array("Sam sung","LG","Nokia");
+    </script>
+</head>
+<body onload="displayTableFromArray(productList);">
+<form>
+    <h1>Add new product: </h1>
+    <input type="text" placeholder="New Product" size="30" id="newProduct">&nbsp;
+    <input type="button" value="Add product" onclick="addProduct(productList)">
+</form>
+<div id="displayTable"></div>
+
+
+
+<script src="ProductManager.js"></script>
+</body>
+</html>
